@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech-Vibes</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/9ca022a4fb.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+<nav>
+    <img src="image/logo.png" class="logo">
+    <ul id="sidemenu">
+        <li><a href="#header">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#portfolio">Our Work</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <i class="fas fa-times" onclick="closemenu()"></i>
+    </ul>
+    <i class="fas fa-bars" onclick="openmenu()"></i>
+</nav>
+<div class="header-text">
+    <p>HEY !</p>
+    <h1>We are<br><span>Tech-Vibes</span><br>Your<br>All in one solution.</h1>
+</div>
+    </div>
+<!--------------------About Section------------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+            <div class="about-col-1">
+                <img src="image/DSC_9689.svg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Us</h1>
+                <P>Welcome to Tech-Vibes!
+                    Tech-Vibes is your go-to source for the latest in technology.
+                    Stay updated with the coolest gadgets, trends, and insights without any tech overwhelm.
+                    Join us as we ride the waves of innovation together!
+                    We believe in the power of technology to transform lives and drive positive change.
+                    That's why we showcase not only the coolest gadgets and devices but also how technology is being used to 
+                    address real-world challenges and make a difference in various industries.
+                </P>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Development</p>
+                    <p class="tab-links" onclick="opentab('experience')">Solutions</p>
+                    <p class="tab-links" onclick="opentab('education')">Services</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                <ul>
+                    <li><span>Web Development</span><br>Looking to establish a strong online presence? Our skilled web development team can create cutting-edge websites that not only look stunning but also deliver exceptional user experiences. Whether you need a personal blog, a corporate website, or an e-commerce platform, we've got you covered.</li>
+                    <li><span>Mobile App Development</span><br>In the age of smartphones, having a user-friendly mobile app is essential for reaching your target audience. Our talented app developers can turn your ideas into reality, crafting intuitive and feature-rich applications for both Android and iOS platforms.</li>
+                </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Software Solutions</span><br>Need custom software to streamline your business processes or enhance productivity? Our software development experts can design tailored solutions to meet your specific requirements, ensuring efficiency and effectiveness in your daily operations.</li>
+                        <li><span>UI/UX Design</span><br>The key to engaging users is an intuitive and visually appealing design. Our UI/UX designers excel at creating captivating interfaces that leave a lasting impression and optimize user interactions across various platforms.<br></li>
+                        
+                    </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Cybersecurity Services</span><br>Protect your digital assets from potential threats and cyber-attacks with our robust cybersecurity solutions. Our experts will assess your systems, implement security measures, and keep your data safe from unauthorized access.</li>
+                            <li><span>Digital Marketing</span><br>Boost your online visibility and reach with our comprehensive digital marketing services. From search engine optimization (SEO) and social media marketing to pay-per-click (PPC) campaigns, we'll help you attract the right audience and achieve your marketing goals.</li>
+                            <li><span>Cloud Services</span><br>Embrace the power of the cloud with our scalable and secure cloud computing services. We can help you migrate, manage, and optimize your data and applications on cloud platforms, ensuring flexibility and cost-efficiency.</li>
+                            <li><span>IT Consultation</span><br>Not sure which tech solutions are best for your business? Our IT consultants are here to guide you. We'll analyze your requirements, recommend suitable technologies, and devise a customized strategy for your success.</li>
+                        </ul>
+                        </div>
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <!-------------------------Services--------------------------------->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">Our Services</h1>
+            <div class="services-list">
+                <div>
+                    <h2>Web Development</h2>
+                    <i class="fa-solid fa-code"></i>
+                    <p>Looking to establish a strong online presence? Our skilled web development team can create cutting-edge websites that not only look stunning but also deliver exceptional user experiences. Whether you need a personal blog, a corporate website, or an e-commerce platform, we've got you covered.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <h2>Mobile App Development</h2>
+                    <i class="fa-solid fa-code"></i>
+                    <p>In the age of smartphones, having a user-friendly mobile app is essential for reaching your target audience. Our talented app developers can turn your ideas into reality, crafting intuitive and feature-rich applications for both Android and iOS platforms.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <h2>Cloud Services</h2>
+                    <i class="fa-solid fa-code"></i>
+                    <p>Embrace the power of the cloud with our scalable and secure cloud computing services. We can help you migrate, manage, and optimize your data and applications on cloud platforms, ensuring flexibility and cost-efficiency.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!---------------------Portfolio------------------->
+    
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">Our Work</h1>
+       <div class="work-list">
+        <div class="work">
+            <img src="image/work 1.jpg" >
+            <div class="layer">
+                <h3>Social Media</h3>
+                <p>Its important to connect with everyone.</p>
+                <a href=""><i class="fas fa-external-link-alt"></i></a>
+            </div>
+        </div>
+        <div class="work">
+            <img src="image/work-3.png">
+            <div class="layer">
+                <h3>Social Media</h3>
+                <p>Its important to connect with everyone.</p>
+                <a href=""><i class="fas fa-external-link-alt"></i></a>
+            </div>
+        </div>
+        <div class="work">
+            <img src="image/work 1.jpg">
+            <div class="layer">
+                <h3>Social Media</h3>
+                <p>Its important to connect with everyone.</p>
+                <a href=""><i class="fas fa-external-link-alt"></i></a>
+            </div>
+        </div>
+      </div>
+      <a href="#" class="btn">See more</a>  
+    </div>
+</div>
+
+<!-------------------------Contact------------------------------>
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Us</h1>
+                <p><i class="fas fa-paper-plane"></i> anjulrawat37@gmail.com</p>
+                <p><i class="fas fa-phone-square-alt"></i> 8171703099</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/anjul-rawat-399042207/"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/anjulrawat"><i class="fab fa-github"></i></a>
+                </div>
+                <a href="image/TECHNOLOGY.docx" download class="btn btn2">Download Magazine</a>
+            </div>
+            <div class="contact-right">
+               <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="Email" placeholder="Your Email" required>
+                <textarea name="message" rows="6" placeholder="Your Meassage"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+               </form>
+               <span id="msg">hello</span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        copyright @ Anjul <i class="fas fa-heart"></i>. All right reserved to Anjul Rawat.
+    </div>
+</div>
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+
+    <script>
+        var sidemeu =document.getElementById("sidemenu");
+       function openmenu() {
+            sidemeu.style.right = "0";
+       }
+       function closemenu() {
+            sidemeu.style.right = "-145px";
+       } 
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyriDceb-lp4ILYuSDr4Wzqt4IXmam9n-nBY9jkGSI6ixFIkJuHqC1NEIyHrW_G6EGp/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response =>{
+                msg.innerHTML = "Message Sent Successfully"
+                setTimeout(function(){
+                    msg.innerHTML = " "
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
